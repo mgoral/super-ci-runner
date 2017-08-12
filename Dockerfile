@@ -5,6 +5,7 @@ RUN add-apt-repository ppa:fkrull/deadsnakes
 RUN apt-get -y update && apt-get install -y \
     git \
     zip \
+    virtualenv \
     python3.3 \ 
     python3.4 \
     python3.5 \
